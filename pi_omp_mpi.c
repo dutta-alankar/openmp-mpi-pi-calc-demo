@@ -31,7 +31,7 @@ void main(int argc, char** argv)
 		double x;
 		int ID = omp_get_thread_num();
 		int workers = omp_get_num_threads()*world_size;
-		for (int i=(ID+world_rank*omp_get_num_threads());i<num_steps;i+=workers)
+		for (int i=ID+world_rank*omp_get_num_threads();i<num_steps;i+=workers)
 		{
 			x = (i+0.5)*step;
 			sum_inter = sum_inter + 4.0/(1.0+x*x);
