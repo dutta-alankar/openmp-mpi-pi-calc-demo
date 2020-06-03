@@ -1,6 +1,54 @@
 # openmp-mpi-pi-calc-demo
 A simple demonstration program to calculate the value of PI using both MPI (multiprocess) and OPENMP (multithread)
 
+```
+      ################################  
+
+    ##################################  
+
+   ###################################  
+
+   ####    #####         ####           
+
+  ###      #####        #####           
+
+  #        #####        #####           
+
+  #        #####        ####            
+
+           ####         ####            
+
+           ####         ####            
+
+           ####         ####            
+
+          #####        #####            
+
+          #####        #####            
+
+          ####         #####            
+
+          ####         #####            
+
+         #####         #####            
+
+        ######         #####            
+
+        #####          #####        ##  
+
+       #######         ######       ##  
+
+      #######           ##############  
+
+     #######            #############   
+
+     #######             ###########    
+
+     ######               #########     
+
+
+```
+
 This is a hybrid program that achieves parallelization using multiple processors and also multiple threads on each processor.
 
 It does the following integration using rectangles to numerically estimate the value of PI:
