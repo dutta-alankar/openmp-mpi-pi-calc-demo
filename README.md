@@ -53,7 +53,7 @@ This is a hybrid program that achieves parallelization using multiple processors
 
 It does the following integration using rectangles to numerically estimate the value of PI:
 
-![equation](pi.png)
+<img src="https://user-images.githubusercontent.com/39578361/133594893-341f6b01-c046-4311-a0f9-8e5577bd1bd7.png" width="200" height="80" />
 
 Usage: 
 
